@@ -46,4 +46,72 @@ nav a {
 
 #banner #centered {
     position: static;
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner #left {
+    color: #fff;
+}
+
+#banner button {
+    padding: 5px 35px;
+    background-color: #FC3C3C;
+    border-radius: 0;
+    border: none;
+    color: #fff;
+}
+
+#banner p {
+    display: inline-block;
+}
+
+span.straightLine {
+    width: 60px;
+    height: 1px;
+    margin-bottom: 0.3%;
+    margin-left: 1%;
+    background-color: #ffffffa4;
+    display: inline-block;
+}
+
+#banner #right p {
+    font-weight: 300;
+    line-height: 2em;
+    color: #fff;
+}
+
+#arrows {
+    position: relative;
+    text-align: right;
+    right: -25%;
+
+}
+
+#arrows img {
+    text-align: right;
+}
+
+/* services section */
+#services {
+    margin-top: 10%;
+}
+
+#services .card {
+    border: none !important;
+}
+
+/* about Section */
+
+#about p {
+    line-height: 2em;
+}
+
+span.darkLine {
+    width: 60px;
+    height: 2px;
+    margin-bottom: 0.3%;
+    margin-left: 1%;
+    background-color: #1b1a1ae7;
+    display: inline-block;
 }
