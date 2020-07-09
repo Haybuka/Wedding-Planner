@@ -92,15 +92,6 @@ span.straightLine {
     text-align: right;
 }
 
-/* services section */
-#services {
-    margin-top: 10%;
-}
-
-#services .card {
-    border: none !important;
-}
-
 /* about Section */
 
 #about p {
@@ -114,4 +105,28 @@ span.darkLine {
     margin-left: 1%;
     background-color: #1b1a1ae7;
     display: inline-block;
+}
+
+#about {
+    margin-top: 10%;
+}
+
+
+/* services section */
+
+
+#services .card {
+    border: none !important;
+}
+
+#buttonGroup {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonGroup .btns {
+    border-radius: 0 !important;
+    border: 1px solid #FC3C3C;
+    padding: 5px 50px;
+
 }
