@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+/* nav styles */
+#nav {
+    padding: 1% 5% !important;
+}
+
+nav h2 {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    position: relative;
+}
+
+.navbar-brand .crown {
+    position: absolute;
+    left: 27.5%;
+}
+
+nav li.active {
+    text-decoration-color: #FC3C3C;
+
+}
+
+nav .active>a {
+    text-decoration: none;
+    color: #FC3C3C;
+}
+
+nav a {
+    color: #000;
+}
+
+/* banner Section */
+#banner {
+    position: relative;
+}
+
+#banner img {
+    position: absolute;
+    z-index: -5;
+}
+
+#banner #centered {
+    position: static;
+}
